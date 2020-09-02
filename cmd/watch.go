@@ -43,7 +43,7 @@ var WatchCmd = &cobra.Command{
 				if _, ok := uniqueFiles[e.Name]; ok {
 					uniqueFiles[e.Name].Times++
 				} else {
-					log.Logger.Info("File path: ", e.Name, "File size: ", e.Size)
+					log.Logger.Info("File path: ", e.Name, " Size: ", e.Size)
 					uniqueFiles[e.Name] = &file.File{Name: e.Name, Size: e.Size, Times: 1}
 					totalSize += e.Size
 				}

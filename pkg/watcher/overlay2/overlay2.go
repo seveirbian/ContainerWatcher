@@ -49,7 +49,7 @@ func NewWatcher(digest string) *Watcher {
 
 // Watch start watch
 func (o *Watcher) Watch() chan file.File {
-	var mask uint32 = fsevents.Accessed | fsevents.Open | fsevents.CloseRead
+	var mask uint32 = fsevents.AllEvents
 	w, err := fsevents.NewWatcher()
 	if err != nil {
 		log.Logger.Fatal(err)
