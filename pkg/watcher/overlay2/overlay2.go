@@ -1,9 +1,9 @@
 package overlay2
 
 import (
-	"ContainerWatcher/pkg/file"
-	"ContainerWatcher/pkg/log"
-	"ContainerWatcher/pkg/watcher/docker"
+	"cw/pkg/file"
+	"cw/pkg/log"
+	"cw/pkg/watcher/docker"
 	"os"
 	"path/filepath"
 	"strings"

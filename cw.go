@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ContainerWatcher/cmd"
+	"cw/cmd"
 	"os"
 )
 
@@ -10,5 +10,3 @@ func main() {
 		os.Exit(1)
 	}
 }
-
-

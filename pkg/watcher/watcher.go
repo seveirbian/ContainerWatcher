@@ -1,9 +1,9 @@
 package watcher
 
 import (
-	"ContainerWatcher/pkg/file"
-	"ContainerWatcher/pkg/watcher/docker"
-	"ContainerWatcher/pkg/watcher/overlay2"
+	"cw/pkg/file"
+	"cw/pkg/watcher/docker"
+	"cw/pkg/watcher/overlay2"
 )
 
 // Watcher a watcher for watching container's actions

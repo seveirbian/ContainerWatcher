@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"ContainerWatcher/pkg/file"
-	"ContainerWatcher/pkg/log"
-	"ContainerWatcher/pkg/watcher"
+	"cw/pkg/file"
+	"cw/pkg/log"
+	"cw/pkg/watcher"
 	"fmt"
 	"os"
 	"os/signal"
